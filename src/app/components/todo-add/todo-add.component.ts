@@ -7,7 +7,7 @@ import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 })
 export class TodoAddComponent implements OnInit {
 
-	@Output addTodo: EventEmitter<any> = new EventEmitter();
+	@Output() addTodo: EventEmitter<any> = new EventEmitter();
 	title:string;
 
 
