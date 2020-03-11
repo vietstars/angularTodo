@@ -3,6 +3,9 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.5.
 
 ## Development server
+1.`npm i g @angular/cli`
+2.`ng new angularTodo`
+
 
 Run `ng serve --o` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
@@ -26,3 +29,8 @@ on todo-item: change completed and remove todo by id
 `ng g c components/todo-add`
 1. ngModel title 
 2. @output addTodo() and emit addTodo
+
+`ng g s services/todo`
+1. HttpClient, HttpHeaders @angular/common/http
+2. Observable @rxjs
+3. Rest API resource
