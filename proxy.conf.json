@@ -1,0 +1,8 @@
+{
+    "/api/*": {
+        "target": "http://dev.vn",
+        "secure": false,
+   		"logLevel": "debug",
+        "changeOrigin": true
+    }
+}

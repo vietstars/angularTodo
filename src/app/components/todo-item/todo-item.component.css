@@ -1,0 +1,18 @@
+.del{
+	background: linear-gradient(to right, #ffbf96, #fe7096)!important;
+	color: #FFF;
+	border: none;
+	border-radius: 50%;
+	float: right;
+	cursor: pointer; 
+}
+.todo{
+	background: #f4f4f4;
+	padding: 10px;
+	border-bottom: 1px #CCC dotted; 
+}
+.is-completed{
+	text-decoration: line-through;
+	text-decoration-color: #fe7096;
+	text-decoration-style: wavy;
+}

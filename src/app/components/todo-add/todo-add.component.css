@@ -1,0 +1,18 @@
+form{
+	display: flex;
+}
+input{
+	flex:10;
+	padding: 10px 5px;
+	font-family: "tahoma",serial;
+	font-size: 18px
+}
+button{
+	flex:2;
+	padding: 10px;
+	background: linear-gradient(to right, #90caf9, #047edf 99%);
+	border: none;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color:#F0F0F0;
+}
