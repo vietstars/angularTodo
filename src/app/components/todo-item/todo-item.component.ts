@@ -33,7 +33,6 @@ export class TodoItemComponent implements OnInit {
 
   	//toggel on service
   	this.todoService.toggleComplete(todo).subscribe(todo => {
-  		console.log(todo);
   		this.todo = todo;
   	})
   }
