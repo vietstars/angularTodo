@@ -12,6 +12,7 @@ export class TodoItemComponent implements OnInit {
 	@Input() todo:Todo;
 	@Output() deleteTodo: EventEmitter<Todo> = new EventEmitter();
 
+
   constructor(private todoService:TodoService) { }
 
   ngOnInit(): void {
@@ -24,6 +25,10 @@ export class TodoItemComponent implements OnInit {
   		'is-completed': this.todo.completed
   	}
   	return classes;
+  }
+
+  setChecked(){
+    return this.todo.completed?"checked":null;
   }  
 
   //toggle todo
