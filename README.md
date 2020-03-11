@@ -39,4 +39,4 @@ on todo-item: change completed and remove todo by id
 1. set route-outlet Routes = [{ path:'', component:TodoComponent },{ path:'about', component:AboutComponent }]
 
 'component add route' 
-1. add <router-outlet>
+1. add router-outlet
